@@ -25,6 +25,11 @@
     
     <dependencies>
         <dependency>
+            <groupId>se.michaelthelin.spotify</groupId>
+            <artifactId>spotify-web-api-java</artifactId>
+            <version>6.5.4</version>
+        </dependency>
+        <dependency>
             <groupId>net.dv8tion</groupId> 
             <artifactId>JDA</artifactId> 
             <version>4.3.0_324</version>

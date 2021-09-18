@@ -15,6 +15,7 @@
  */
 package com.jagrosh.jmusicbot.commands.music;
 
+import com.jagrosh.jmusicbot.spotify.SpotifyTrackLoader;
 import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException.Severity;
@@ -30,10 +31,13 @@ import com.jagrosh.jmusicbot.commands.DJCommand;
 import com.jagrosh.jmusicbot.commands.MusicCommand;
 import com.jagrosh.jmusicbot.playlist.PlaylistLoader.Playlist;
 import com.jagrosh.jmusicbot.utils.FormatUtil;
+
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.exceptions.PermissionException;
+import net.dv8tion.jda.internal.entities.AbstractMessage;
 
 /**
  *
@@ -43,6 +47,7 @@ public class PlayCmd extends MusicCommand
 {
     private final static String LOAD = "\uD83D\uDCE5"; // 📥
     private final static String CANCEL = "\uD83D\uDEAB"; // 🚫
+    private final static String SPOTIFY = "\t\uD83D\uDFE2"; // 🟢
     
     private final String loadingEmoji;
     
@@ -87,7 +92,25 @@ public class PlayCmd extends MusicCommand
         String args = event.getArgs().startsWith("<") && event.getArgs().endsWith(">") 
                 ? event.getArgs().substring(1,event.getArgs().length()-1) 
                 : event.getArgs().isEmpty() ? event.getMessage().getAttachments().get(0).getUrl() : event.getArgs();
-        event.reply(loadingEmoji+" Loading... `["+args+"]`", m -> bot.getPlayerManager().loadItemOrdered(event.getGuild(), args, new ResultHandler(m,event,false)));
+        if (args.contains("https://open.spotify.com")) {
+            ArrayList<String> songs = new ArrayList<>();
+            try {
+                if (SpotifyTrackLoader.getInstance() == null) {
+                    new SpotifyTrackLoader();
+                }
+                songs = SpotifyTrackLoader.getInstance().convert(args);
+                for (String song: songs) {
+                    CommandEvent tempEvent = new CommandEvent(event.getEvent(), song, event.getClient());
+                    event.reply(SPOTIFY+" Found Spotify track... `["+song+"]`", m -> bot.getPlayerManager().loadItemOrdered(tempEvent.getGuild(), song, new ResultHandler(m, tempEvent,false)));
+                }
+                event.reply(LOAD+" Loaded Spotify playlist... `["+args+"]`", m -> System.out.println(m));
+            } catch (Exception e) {
+                System.out.println(" Spotify link could not be handled!");
+                event.reply(bot.getConfig().getError()+"Spotify link failed to load", m -> System.out.println(m));
+            }
+        } else {
+            event.reply(loadingEmoji+" Loading... `["+args+"]`", m -> bot.getPlayerManager().loadItemOrdered(event.getGuild(), args, new ResultHandler(m,event,false)));
+        }
     }
     
     private class ResultHandler implements AudioLoadResultHandler

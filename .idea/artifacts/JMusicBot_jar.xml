@@ -1,0 +1,97 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JMusicBot:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/JMusicBot_jar</output-path>
+    <root id="archive" name="JMusicBot.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="JMusicBot" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-examples/3.0.5/jda-utilities-examples-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/16.0.1/annotations-16.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sedmelluq/lavaplayer-natives/1.3.14/lavaplayer-natives-1.3.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/neovisionaries/nv-i18n/1.27/nv-i18n-1.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sedmelluq/lava-common/1.1.2/lava-common-1.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-menu/3.0.5/jda-utilities-menu-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-doc/3.0.5/jda-utilities-doc-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20180813/json-20180813.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/dv8tion/JDA/4.3.0_324/JDA-4.3.0_324.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sedmelluq/lavaplayer/1.3.78/lavaplayer-1.3.78.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/typesafe/config/1.3.2/config-1.3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-oauth2/3.0.5/jda-utilities-oauth2-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/se/michaelthelin/spotify/spotify-web-api-java/6.5.4/spotify-web-api-java-6.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/iharder/base64/2.3.9/base64-2.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/client5/httpclient5-cache/5.0.3/httpclient5-cache-5.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/club/minnced/opus-java-api/1.1.0/opus-java-api-1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/jagrosh/JLyrics/-0f9ac5df83-1/JLyrics--0f9ac5df83-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-command/3.0.5/jda-utilities-command-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/club/minnced/opus-java-natives/1.1.0/opus-java-natives-1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-commons/3.0.5/jda-utilities-commons-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.13.0/okhttp-3.13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.github.jagrosh:JLyrics:-0f9ac5df83-1" />
+      <element id="library" level="project" name="Maven: se.michaelthelin.spotify:spotify-web-api-java:6.5.4" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+      <element id="library" level="project" name="Maven: com.neovisionaries:nv-i18n:1.27" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents.client5:httpclient5-cache:5.0.3" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.3" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.2" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.0.2" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+      <element id="library" level="project" name="Maven: net.dv8tion:JDA:4.3.0_324" />
+      <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.2" />
+      <element id="library" level="project" name="Maven: org.jetbrains:annotations:16.0.1" />
+      <element id="library" level="project" name="Maven: com.neovisionaries:nv-websocket-client:2.14" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.13.0" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
+      <element id="library" level="project" name="Maven: club.minnced:opus-java-api:1.1.0" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna:4.4.0" />
+      <element id="library" level="project" name="Maven: club.minnced:opus-java-natives:1.1.0" />
+      <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.1" />
+      <element id="library" level="project" name="Maven: net.sf.trove4j:trove4j:3.0.3" />
+      <element id="library" level="project" name="Maven: com.sedmelluq:lavaplayer:1.3.78" />
+      <element id="library" level="project" name="Maven: com.sedmelluq:lava-common:1.1.2" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.10" />
+      <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.12" />
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" />
+      <element id="library" level="project" name="Maven: com.sedmelluq:lavaplayer-natives:1.3.14" />
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+      <element id="library" level="project" name="Maven: net.iharder:base64:2.3.9" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-command:3.0.5" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-commons:3.0.5" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-doc:3.0.5" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-examples:3.0.5" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-menu:3.0.5" />
+      <element id="library" level="project" name="Maven: com.jagrosh:jda-utilities-oauth2:3.0.5" />
+      <element id="library" level="project" name="Maven: org.json:json:20180813" />
+      <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+      <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+      <element id="library" level="project" name="Maven: com.typesafe:config:1.3.2" />
+      <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.14.2" />
+    </root>
+  </artifact>
+</component>
